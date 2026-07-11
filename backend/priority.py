@@ -35,8 +35,6 @@ Priority Score Formula:
     score = (weight * 1000) - age_in_minutes
 
 """
-#import
-
 
 import heapq
 
