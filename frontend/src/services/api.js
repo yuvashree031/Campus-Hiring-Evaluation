@@ -1,14 +1,6 @@
-
-
-
-
-
-
-
-
 import axios from "axios";
 
-
+//imp
 const api = axios.create({
   baseURL: "http://localhost:8000",
   timeout: 15000,
@@ -16,14 +8,6 @@ const api = axios.create({
     "Content-Type": "application/json",
   },
 });
-
-
-
-
-
-
-
-
 
 
 export const fetchNotifications = async (page = 1, limit = 10, type = "", search = "") => {
@@ -39,11 +23,6 @@ export const fetchNotifications = async (page = 1, limit = 10, type = "", search
     throw error;
   }
 };
-
-
-
-
-
 
 
 export const fetchPriorityNotifications = async (n = 10) => {
