@@ -5,9 +5,6 @@ import Navbar from "./components/Navbar";
 import Notifications from "./pages/Notifications";
 import PriorityInbox from "./pages/PriorityInbox";
 
-//imp
-
-
 const theme = createTheme({
   palette: {
     mode: "dark",
