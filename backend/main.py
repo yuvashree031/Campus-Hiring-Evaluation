@@ -22,8 +22,6 @@ External data source:
 
 """
 
-#imp
-
 import os
 
 import httpx
