@@ -1,9 +1,3 @@
-"""
-logger.py
----------
-Logging middleware for the FastAPI
-
-
 import time
 import logging
 import traceback
