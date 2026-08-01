@@ -1,7 +1,7 @@
 """
 logger.py
 ---------
-Logging middleware for the FastAPI backend.
+Logging middleware for the FastAPI
 
 
 import time
