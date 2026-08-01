@@ -2,7 +2,7 @@
 logger.py
 ---------
 Logging middleware for the FastAPI backend.
-Logs every incoming request with logID,
+
 
 import time
 import logging
